@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>定时关机</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="assets.qrc">
+    <normaloff>:/assets/images/time.ico</normaloff>:/assets/images/time.ico</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,4,1,1">
     <item>
@@ -39,6 +43,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="assets.qrc"/>
+ </resources>
  <connections/>
 </ui>
